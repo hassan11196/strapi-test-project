@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "projects2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "projects2_s"
+}

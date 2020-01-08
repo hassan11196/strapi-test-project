@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Screenshots": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Date": {
+      "type": "date"
+    }
+  },
+  "connection": "default",
+  "collectionName": "projects"
+}
